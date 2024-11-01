@@ -2,8 +2,8 @@ spring:
   application:
     name: user-service
   config:
-    activate:
-      on-profile: dev
+#    activate:
+#      on-profile: dev
 
   datasource:
     url: jdbc:postgresql://localhost:5432/user_service_db?currentSchema=user_service
